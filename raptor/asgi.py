@@ -1,5 +1,5 @@
 """
-ASGI config for rapter project.
+ASGI config for raptor project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'rapter.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'raptor.settings')
 
 application = get_asgi_application()
